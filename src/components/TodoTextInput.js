@@ -4,7 +4,7 @@ import classnames from "classnames";
 
 export default function TodoTextInput({
   onSave,
-  text: originalText,
+  text: originalText = "",
   placeholder,
   editing,
   newTodo,

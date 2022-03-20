@@ -1,11 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
-import FilterLink from "../containers/FilterLink";
+import FilterLink from "../FilterLink";
 import {
   SHOW_ALL,
   SHOW_COMPLETED,
   SHOW_ACTIVE,
-} from "../constants/TodoFilters";
+} from "../../../../constants/TodoFilters";
 
 const FILTER_TITLES = {
   [SHOW_ALL]: "All",
@@ -13,7 +13,11 @@ const FILTER_TITLES = {
   [SHOW_COMPLETED]: "Completed",
 };
 
-export default function Footer({ activeCount, completedCount, onClearCompleted}) {
+export default function Footer({
+  activeCount,
+  completedCount,
+  onClearCompleted,
+}) {
   const itemWord = activeCount === 1 ? "item" : "items";
   return (
     <footer className="footer">
@@ -34,7 +38,7 @@ export default function Footer({ activeCount, completedCount, onClearCompleted})
       )}
     </footer>
   );
-};
+}
 
 Footer.propTypes = {
   completedCount: PropTypes.number.isRequired,

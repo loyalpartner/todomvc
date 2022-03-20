@@ -1,6 +1,6 @@
 import React from 'react'
 import { createRenderer } from 'react-test-renderer/shallow';
-import Link from './Link'
+import Link from './view'
 
 const setup = (propOverrides) => {
   const props = Object.assign({

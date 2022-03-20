@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import TodoTextInput from "../../components/TodoTextInput";
+import TodoTextInput from "src/components/TodoTextInput";
 
 const Header = ({ addTodo }) => (
   <header className="header">

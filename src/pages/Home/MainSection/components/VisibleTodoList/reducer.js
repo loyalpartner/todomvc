@@ -5,7 +5,7 @@ import {
   COMPLETE_TODO,
   COMPLETE_ALL_TODOS,
   CLEAR_COMPLETED,
-} from "../../../../constants/ActionTypes";
+} from "src/constants/ActionTypes";
 
 const initialState = [
   {

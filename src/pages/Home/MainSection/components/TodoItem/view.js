@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import classnames from "classnames";
-import TodoTextInput from "../../../../components/TodoTextInput";
+import TodoTextInput from "src/components/TodoTextInput";
 
 export default function TodoItem({ todo, editTodo, deleteTodo, completeTodo }) {
   const [editing, setEditing] = useState(false);

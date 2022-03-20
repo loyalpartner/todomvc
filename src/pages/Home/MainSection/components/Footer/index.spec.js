@@ -6,7 +6,7 @@ import {
   SHOW_ALL,
   SHOW_ACTIVE,
   SHOW_COMPLETED,
-} from "../../../../constants/TodoFilters";
+} from "src/constants/TodoFilters";
 
 const setup = (propOverrides) => {
   const props = Object.assign(

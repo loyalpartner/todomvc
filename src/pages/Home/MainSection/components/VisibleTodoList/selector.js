@@ -3,7 +3,7 @@ import {
   SHOW_ALL,
   SHOW_COMPLETED,
   SHOW_ACTIVE,
-} from "../../../../constants/TodoFilters";
+} from "src/constants/TodoFilters";
 
 const getVisibilityFilter = (state) => state.visibilityFilter;
 const getTodos = (state) => state.todos;

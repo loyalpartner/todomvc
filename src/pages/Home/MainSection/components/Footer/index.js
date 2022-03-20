@@ -5,7 +5,7 @@ import {
   SHOW_ALL,
   SHOW_COMPLETED,
   SHOW_ACTIVE,
-} from "../../../../constants/TodoFilters";
+} from "src/constants/TodoFilters";
 
 const FILTER_TITLES = {
   [SHOW_ALL]: "All",
